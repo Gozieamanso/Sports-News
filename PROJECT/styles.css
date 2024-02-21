@@ -1,0 +1,1537 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding-left: 150px;
+  background-color: white;
+}
+
+.searchbar {
+  width: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 145px;
+}
+
+.searchbar button {
+  background-color: #b8c2ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  height: 32px;
+  width: 30px;
+  border-radius: 1px 0px 0px 1px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.searchbar button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.searchbar img {
+  width: 150px;
+  height: 32px;
+  object-fit: contain;
+  padding-left: 25px;
+}
+
+.searchbar input {
+  flex: 1;
+  width: 50%;
+  height: 32px;
+  background-color: #b8c2ce;
+  outline: none;
+  border: none;
+  padding: 10px;
+  padding-left: 3px;
+  padding-right: 1px;
+  border-radius: 0px 1px 1px 0px;
+}
+
+.searchbar input::placeholder {
+  color: white;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  margin-left: 120px;
+  margin-right: -60px;
+}
+
+.nav ul li a {
+  color: #262626;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.sportsnews {
+  width: 140px;
+}
+
+.nav li a:hover,
+.nav li .active {
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+}
+
+.header {
+  background-color: #ebeef338;
+  margin-bottom: -599.5px;
+}
+
+.top {
+  height: 700px;
+  background-image: url(./IMG/basketball_sport_icon_in_minimalist_3d_render_2\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 650px;
+  margin-bottom: 600px;
+  width: 1323px;
+  display: flex;
+  align-items: center;
+}
+
+.img1 {
+  margin-top: -190px;
+  margin-left: 150px;
+  height: 280px;
+  vertical-align: top;
+}
+
+.p1 {
+  width: 840px;
+  height: 630px;
+  background-image: url(./IMG/basketball-player-action-sunset\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 730px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 70px;
+  margin-left: -320px;
+}
+
+.subp1 {
+  width: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+  height: 500px;
+  margin-left: 35px;
+}
+
+.subp2 {
+  background-color: black;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 27px;
+  margin-left: -70px;
+  margin-bottom: -348px;
+  width: 290px;
+  height: 65px;
+  font-size: larger;
+  font-weight: bold;
+  letter-spacing: 3.5px;
+}
+
+.subp2:hover {
+  transform: scale(0.97);
+  cursor: pointer;
+  transition: 0.12s ease-in-out;
+}
+
+.p2 {
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  margin-top: 60px;
+  max-width: 270px;
+  margin-right: -15px;
+}
+
+.today {
+  background-color: #e1e8f0;
+  color: #b8c2ce;
+  width: 87px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  border-radius: 5px;
+  letter-spacing: 1.5px;
+  margin-bottom: 125px;
+}
+
+.race1 {
+  background: url(./IMG/Group\ 143726057.png);
+  background-repeat: no-repeat;
+  background-size: 270px;
+  height: 230px;
+  width: 270px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 7px;
+  margin-top: -130px;
+}
+
+.race2 {
+  background-image: url(./IMG/Group\ 143726058.png);
+  background-repeat: no-repeat;
+  background-size: 270px;
+  height: 230px;
+  width: 270px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 7px;
+}
+
+.today:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.race1:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.race2:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.main {
+  background-color: #ebeef338;
+  height: 100%;
+}
+
+.maindiv {
+  height: 700px;
+  margin-bottom: 600px;
+  width: 1323px;
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.category {
+  color: black;
+  height: 36px;
+  font-size: 29px;
+  font-weight: bold;
+  border-radius: 5px;
+  letter-spacing: -1px;
+  margin-top: -500px;
+  outline: none;
+}
+
+.football {
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: -110px;
+  margin-top: -10px;
+}
+
+.fimg {
+  background-image: url(./IMG/Football.png);
+  background-repeat: no-repeat;
+  height: 115px;
+  width: 270px;
+  background-color: #e1e8f05f;
+  background-position: center;
+  border-radius: 7px;
+  margin-bottom: 35px;
+}
+
+.fimg2 {
+  background-image: url(./IMG/soccer-ball-green-grass-soccer-field-generative-ai\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 271px;
+  height: 289px;
+  width: 270px;
+  background-position: center;
+  border-radius: 7px;
+}
+
+.fimg:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.bball {
+  height: 420px;
+  /* width: 100px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 35px;
+  margin-top: -10px;
+}
+
+.bimg {
+  background-image: url(./IMG/close-up-basketball-outdoors\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 270px;
+  height: 250px;
+  width: 270px;
+  background-position: center;
+  border-radius: 7px;
+}
+
+.bimg2 {
+  background-image: url(./IMG/bascket\ ball.png);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  height: 166px;
+  width: 270px;
+  background-color: #e1e8f05f;
+  background-position: center;
+  margin-top: 30px;
+  border-radius: 7px;
+}
+
+.bimg2:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.cardrift {
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 35px;
+  margin-top: -10px;
+}
+
+.cimg {
+  background-image: url(./IMG/car\ sport.png);
+  background-repeat: no-repeat;
+  height: 115px;
+  width: 270px;
+  background-color: #e1e8f05f;
+  background-position: center;
+  border-radius: 7px;
+  margin-bottom: 35px;
+}
+
+.cimg2 {
+  background-image: url(./IMG/sport-car-is-drifting-track-with-smoke-around-it\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 271px;
+  height: 289px;
+  width: 270px;
+  background-position: center;
+  border-radius: 7px;
+}
+
+.cimg:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.tennis {
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 35px;
+  margin-top: -10px;
+}
+
+.timg {
+  background-image: url(./IMG/red-ping-pong-racket-sports-equipment\ 1.png);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 270px;
+  height: 250px;
+  width: 270px;
+  background-position: center;
+  border-radius: 7px;
+}
+
+.timg2 {
+  background-image: url(./IMG/Table\ Tennis.png);
+  background-repeat: no-repeat;
+  background-size: 150px;
+  height: 166px;
+  width: 270px;
+  background-color: #e1e8f05f;
+  background-position: center;
+  margin-top: 30px;
+  border-radius: 7px;
+}
+
+.timg2:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.main2 {
+  margin-top: -669px;
+}
+
+.div2 {
+  height: 600px;
+  border-radius: 7px;
+  width: 1190px;
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+  background-color: #e1e8f05f;
+}
+
+.insidediv {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 600px;
+  margin-left: 41px;
+  margin-top: 60px;
+}
+
+.trending {
+  color: black;
+  height: 36px;
+  font-size: 29px;
+  font-weight: bold;
+  border-radius: 5px;
+  letter-spacing: -1px;
+  outline: none;
+}
+
+.sub1div2 {
+  background-image: url(./IMG/Post-3.png);
+  background-repeat: no-repeat;
+  background-size: 510px;
+  height: 155px;
+  width: 540px;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.sub1div2:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.h1 {
+  width: 280px;
+  margin-left: 260px;
+}
+
+.sub2div2 {
+  background-image: url(./IMG/Post-2.png);
+  background-repeat: no-repeat;
+  background-size: 510px;
+  height: 155px;
+  width: 540px;
+  margin-top: -52px;
+  margin-bottom: -30px;
+}
+
+.sub2div2:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.h2 {
+  width: 280px;
+  margin-left: 260px;
+}
+
+.sub3div2 {
+  background-image: url(./IMG/Post-4.png);
+  background-repeat: no-repeat;
+  background-size: 510px;
+  height: 155px;
+  width: 540px;
+  margin-top: -52px;
+  margin-bottom: 30px;
+}
+
+.sub3div2:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.h3 {
+  width: 280px;
+  margin-left: 260px;
+}
+
+.cycling {
+  background-image: url(./IMG/Post-1.png);
+  background-repeat: no-repeat;
+  background-size: 575px;
+  border-radius: 7px;
+  height: 600px;
+  width: 575px;
+  margin-left: 33px;
+}
+
+.cycling:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.messi {
+  margin-top: 80px;
+  border-radius: 7px;
+}
+
+.rivals {
+  height: 520px;
+  border-radius: 7px;
+  width: 1190px;
+  margin-left: 150px;
+  background-color: #e1e8f05f;
+  color: white;
+}
+
+.news {
+  height: 420px;
+  background-image: url(./IMG/two-opposing-players-give-handshake-end-game\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 1190px;
+  display: flex;
+  border-radius: 7px 7px 0 0;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+}
+
+.news:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.fnews {
+  margin-left: 50px;
+  margin-top: 30px;
+  border: 1.6px solid white;
+  border-radius: 4px;
+  width: 110px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  letter-spacing: 0.3px;
+}
+
+.france {
+  margin-left: 50px;
+  font-size: large;
+}
+
+.psg {
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 750px;
+  letter-spacing: -2px;
+  word-spacing: -0.5px;
+  line-height: 41px;
+  margin-top: -120px;
+  margin-bottom: -100px;
+}
+
+.euro {
+  margin-left: 50px;
+  margin-bottom: 45px;
+  font-size: larger;
+  width: 650px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100px;
+  gap: 60px;
+}
+
+.b1 {
+  background-image: url(./IMG/Left\ Button.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 70px;
+}
+
+.b1:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.12s ease-in-out;
+}
+
+.b6 {
+  background-image: url(./IMG/Right\ Button.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 70px;
+}
+
+.b6:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.12s ease-in-out;
+}
+
+.b2 {
+  font-size: 25px;
+  color: #262626a4;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.b2:hover,
+.b2 {
+  font-weight: bolder;
+  font-stretch: wider;
+  text-align: center;
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.b3 {
+  font-size: 25px;
+  color: #262626a4;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.b3:hover {
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.15s ease-in-out;
+}
+
+.b4 {
+  font-size: 25px;
+  color: #262626a4;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.b4:hover {
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.15s ease-in-out;
+}
+
+.b5 {
+  font-size: 25px;
+  color: #262626a4;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.b5:hover {
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.15s ease-in-out;
+}
+
+.recent {
+  margin-top: 80px;
+}
+
+.highlight {
+  height: 358px;
+  border-radius: 7px;
+  width: 1190px;
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.fight {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 358px;
+  width: 268px;
+}
+
+.wondo {
+  color: black;
+  height: 36px;
+  font-size: 29px;
+  font-weight: bold;
+  border-radius: 5px;
+  letter-spacing: -1px;
+}
+
+.arts {
+  background-image: url(./IMG/karate-fighters\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 268px;
+  border-radius: 7px;
+  height: 300px;
+  width: 268px;
+  background-color: #e1e8f05f;
+}
+
+.artsdiv {
+  background-color: burlywood;
+  background-size: 290px;
+  height: 83px;
+  width: 268px;
+  margin-top: 218px;
+  color: white;
+  padding-left: 19px;
+  border-radius: 0 0 7px 7px;
+}
+
+.artsdiv:hover {
+  transform: scale(1);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.champs {
+  font-size: small;
+  padding-top: 13px;
+}
+
+.champs1 {
+  margin-top: 5px;
+  line-height: 20px;
+}
+
+.info {
+  margin-left: 40px;
+  margin-top: 58px;
+  border-radius: 7px;
+  height: 300px;
+  width: 268px;
+  background-color: #e1e8f05f;
+}
+
+.baku {
+  background-image: url(./IMG/Recent3.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  height: 70px;
+  width: 250px;
+  margin-top: 13px;
+  margin-bottom: -30px;
+  margin-left: 13px;
+}
+
+.baku:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.golf {
+  background-image: url(./IMG/Recent.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  height: 70px;
+  width: 250px;
+  margin-top: 45px;
+  margin-bottom: -30px;
+  margin-left: 13px;
+}
+
+.golf:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.cricket {
+  background-image: url(./IMG/Recent2.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  height: 70px;
+  width: 250px;
+  margin-top: 45px;
+  margin-bottom: -30px;
+  margin-left: 13px;
+}
+
+.cricket:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.more {
+  margin-left: 96px;
+  margin-top: 43px;
+}
+
+.more:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 358px;
+  margin-left: 40px;
+  width: 575px;
+}
+
+.ranks {
+  color: black;
+  height: 36px;
+  font-size: 29px;
+  font-weight: bold;
+  border-radius: 5px;
+  letter-spacing: -1px;
+}
+
+.table {
+  background-image: url(./IMG/club-table.png);
+  background-repeat: no-repeat;
+  background-size: 570px;
+  border-radius: 7px;
+  height: 300px;
+  width: 575px;
+  background-color: #e1e8f05f;
+}
+
+.table:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.general {
+  height: 300px;
+  border-radius: 7px;
+  width: 1190px;
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: 70px;
+}
+
+.note {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 300px;
+  width: 370px;
+}
+
+.writeup {
+  color: black;
+  height: 36px;
+  font-size: 29px;
+  font-weight: bold;
+  border-radius: 5px;
+  letter-spacing: -1px;
+}
+
+.picture {
+  background-image: url(./IMG/basketball-equipment\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 370px;
+  border-radius: 7px;
+  height: 300px;
+  width: 370px;
+  margin-top: 20px;
+  background-color: #e1e8f05f;
+}
+
+.basketball {
+  color: white;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 30px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border: 1px solid white;
+  margin-top: 17px;
+  margin-left: 280px;
+  outline: none;
+}
+
+.picture2 {
+  background-image: url(./IMG/hockey-players\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 370px;
+  border-radius: 7px;
+  height: 245px;
+  width: 370px;
+  margin-top: 55px;
+  margin-left: 40px;
+  background-color: #e1e8f05f;
+}
+
+.ice {
+  color: white;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 30px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border: 1px solid white;
+  margin-top: 17px;
+  margin-left: 280px;
+  outline: none;
+}
+
+.picture3 {
+  background-image: url(./IMG/three-white-shuttlecocks-badminton-racquet\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 370px;
+  border-radius: 7px;
+  height: 245px;
+  width: 370px;
+  margin-top: 55px;
+  margin-left: 40px;
+  background-color: #e1e8f05f;
+}
+
+.badminton {
+  color: white;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 30px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border: 1px solid white;
+  margin-top: 17px;
+  margin-left: 280px;
+  outline: none;
+}
+
+.people {
+  height: 50px;
+  border-radius: 7px;
+  width: 1190px;
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.person1 {
+  background-image: url(./IMG/content.png);
+  background-repeat: no-repeat;
+  background-size: 320px;
+  border-radius: 7px;
+  height: 50px;
+  width: 370px;
+}
+
+.person2 {
+  background-image: url(./IMG/contentmax.png);
+  background-repeat: no-repeat;
+  background-size: 320px;
+  border-radius: 7px;
+  height: 50px;
+  width: 370px;
+  margin-left: 40px;
+}
+
+.person3 {
+  background-image: url(./IMG/contentpro.png);
+  background-repeat: no-repeat;
+  background-size: 320px;
+  border-radius: 7px;
+  height: 50px;
+  width: 370px;
+  margin-left: 40px;
+}
+
+.year {
+  height: 190px;
+  border-radius: 7px;
+  width: 1190px;
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: 16px;
+}
+
+.year1 {
+  border-radius: 7px;
+  height: 190px;
+  width: 370px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+}
+
+.text1 {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.589);
+}
+
+.text2 {
+  height: 60px;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+
+.text2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px black;
+}
+
+.text3 {
+  height: 90px;
+  font-size: 17px;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.589);
+}
+
+.year2 {
+  border-radius: 7px;
+  height: 190px;
+  width: 370px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.write1 {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.589);
+}
+
+.write2 {
+  height: 60px;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+
+.write2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px black;
+}
+
+.write3 {
+  height: 90px;
+  font-size: 17px;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.589);
+}
+
+.year3 {
+  border-radius: 7px;
+  height: 190px;
+  width: 370px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.form1 {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.589);
+}
+
+.form2 {
+  height: 60px;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+
+.form2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px black;
+}
+
+.form3 {
+  height: 90px;
+  font-size: 17px;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.589);
+}
+
+.skip {
+  height: 60px;
+  width: 1190px;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+
+.back {
+  background-image: url(./IMG/Left\ Button.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 70px;
+}
+
+.back:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.12s ease-in-out;
+}
+
+.next {
+  background-image: url(./IMG/Right\ Button.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 70px;
+}
+
+.next:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.12s ease-in-out;
+}
+
+.footer {
+  margin-top: 50px;
+}
+
+.foot {
+  height: 358px;
+  border-radius: 7px;
+  width: 1190px;
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.container {
+  background-image: url(./IMG/american-football-player-posing-with-ball-white\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: right;
+  height: 358px;
+  width: 1190px;
+  background-color: #e1e8f05f;
+}
+
+.read {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 70px;
+}
+
+.letter {
+  height: 110px;
+  width: 490px;
+  margin-left: 70px;
+}
+
+.khan {
+  width: 520px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+.khan button {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  height: 53px;
+  width: 70px;
+  border-radius: 0px 7px 7px 0px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.khan button:hover {
+  cursor: pointer;
+}
+
+.khan img {
+  width: 150px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.khan button:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.khan input {
+  flex: 1;
+  width: 90px;
+  height: 53px;
+  background-color: #e1e8f05f;
+  outline: none;
+  padding: 20px;
+  font-size: 22px;
+  border-radius: 7px 0px 0px 7px;
+  border: 1.5px solid black;
+}
+
+.khan input::placeholder {
+  color: rgba(0, 0, 0, 0.441);
+  letter-spacing: 0.4px;
+}
+
+.last {
+  height: 180px;
+  width: 1190px;
+  margin-left: 150px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.findme {
+  height: 120px;
+  width: 200px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fb {
+  background-color: rgba(0, 0, 0, 0.838);
+  border-radius: 3px;
+  height: 48px;
+  width: 46px;
+}
+
+.fb:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.ig {
+  background-color: rgba(0, 0, 0, 0.838);
+  border-radius: 3px;
+  height: 48px;
+  width: 46px;
+}
+
+.ig:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.x {
+  background-color: rgba(0, 0, 0, 0.838);
+  border-radius: 3px;
+  height: 48px;
+  width: 46px;
+}
+
+.x:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 10px black;
+}
+
+.end {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100px;
+  gap: 60px;
+}
+
+.end1 {
+  background-image: url(./IMG/Left\ Button.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 70px;
+}
+
+.end1:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.12s ease-in-out;
+}
+
+.end6 {
+  background-image: url(./IMG/Right\ Button.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 70px;
+}
+
+.end6:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.12s ease-in-out;
+}
+
+.end2 {
+  font-size: 25px;
+  color: #262626a4;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.end2:hover,
+.end2 {
+  font-weight: bolder;
+  font-stretch: wider;
+  text-align: center;
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.end3 {
+  font-size: 25px;
+  color: #262626a4;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.end3:hover {
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.15s ease-in-out;
+}
+
+.end4 {
+  font-size: 25px;
+  color: #262626a4;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.end4:hover {
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.15s ease-in-out;
+}
+
+.end5 {
+  font-size: 25px;
+  color: #262626a4;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.end5:hover {
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.15s ease-in-out;
+}
