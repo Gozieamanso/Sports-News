@@ -13,6 +13,9 @@
   height: 90px;
   padding-left: 150px;
   background-color: white;
+  position:fixed;
+  width: 100%;
+  margin-top: -90px;
 }
 
 .searchbar {
@@ -98,6 +101,7 @@
 .header {
   background-color: #ebeef338;
   margin-bottom: -599.5px;
+  margin-top: 90px;
 }
 
 .top {
@@ -121,7 +125,7 @@
 .p1 {
   width: 840px;
   height: 630px;
-  background-image: url(./IMG/basketball-player-action-sunset\ 1.png);
+  background-image: url(./IMG/basketballplayer.png);
   background-repeat: no-repeat;
   background-size: 730px;
   display: flex;
